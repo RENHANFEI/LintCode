@@ -21,7 +21,9 @@
 ### 20180917
 #### 990 Beautiful Arrangement
 1. List all permutations (use itertools in Python).
-2. Validate all permutations.<br><br>
+2. Validate all permutations.
+
+
 -- Overtime!! TTATT Sooooooo sad.<br>
 **Actually,** it is a dfs problem. (remember nothing on data structures... and unfortunately faced with troubles to code dfs in Python. Silly me >^<)<br>
 Pseudo code for dfs (from wiki):
