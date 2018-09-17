@@ -19,11 +19,11 @@
 ## Diary
 
 ### 20180917
-#### 990
+#### 990 Beautiful Arrangement
 1. List all permutations (use itertools in Python).
-2. Validate all permutations.
--- Overtime!! TTATT Sooooooo sad.
-**Actually,** it is a dfs problem. (and unfortunately faced with troubles to code dfs in Python. Silly me >^<)
+2. Validate all permutations.<br>
+-- Overtime!! TTATT Sooooooo sad.<br>
+**Actually,** it is a dfs problem. (remember nothing on data structures... and unfortunately faced with troubles to code dfs in Python. Silly me >^<)<br>
 Pseudo code for dfs (from wiki):
  ```
  procedure DFS(G,v):
@@ -32,12 +32,13 @@ Pseudo code for dfs (from wiki):
       if vertex w is not labeled as discovered then
         recursively call DFS(G,w)
  ```
+ Finally worked but still time-costy. Dunno why QAQ. **NEED** help.
 
 ### 20180916
-Start!! (Eventually lol)
+Start Today!! (Eventually lol)
 
-#### 1042
-#### 1017
+#### 1042 Toeplitz Matrix
+#### 1017 Similar RGB Color
 1. Process each independent channel.
 2. For each channel, if it is a shorthandable number, it should be times of 17.
 3. Do division, find the residue, and do addition or subtraction according to the residue.
@@ -46,19 +47,19 @@ Start!! (Eventually lol)
 2. Intuitively, there are only 3 possibilities in which the digit of the sixteens is the same as the input, one plus the input, or one minus the input.
 3. Compare the 3 possibilities. The subtraction of the input from the right number should be in (-0x9, 0x9]. 
 
-#### 914
-#### 888
-#### 655
+#### 914 Flip Game
+#### 888 Valid Word Square
+#### 655 Add Strings
 Be careful and considerate.
 
-#### 514
-Q: If there are n stairs to walk on and you can climb one or two stairs once. How many ways are there for you to ascend the stairs?
-A: a(n) = a(n-1) + a(n-2) -- Fibonacci sequence
+#### 514 Paint Fence
+Q: If there are n stairs to walk on and you can climb one or two stairs once. How many ways are there for you to ascend the stairs?<br>
+A: a(n) = a(n-1) + a(n-2) -- Fibonacci sequence **NEED further explanation** <br>
 Spent quite much time on this. Poor number theory knowledges. And reluctant to see the keys stubbornly and firmly LOL.
 
-#### 423
-Typical stack.
+#### 423 Valid Parentheses
+Typical stack.<br>
 Be careful about ']'.
 
-#### 156
-#### 407
+#### 156 Merge Intervals
+#### 407 Plus One
