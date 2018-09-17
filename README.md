@@ -1,6 +1,6 @@
-#LintCode
+# LintCode
 
-##Overview
+## Overview
 
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
@@ -15,4 +15,4 @@
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/407.py)   |Easy||99.73%||
 |909| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/909.py)   |Easy||31.03%||
 
-##Diary
+## Diary
