@@ -42,10 +42,10 @@ Start Today!! (Eventually lol)
 1. Process each independent channel.
 2. For each channel, if it is a shorthandable number, it should be times of 17.
 3. Do division, find the residue, and do addition or subtraction according to the residue.
-<br>**OR**<br>
-*1. Process each independent channel.
-*2. Intuitively, there are only 3 possibilities in which the digit of the sixteens is the same as the input, one plus the input, or one minus the input.
-*3. Compare the 3 possibilities. The subtraction of the input from the right number should be in (-0x9, 0x9]. 
+##### OR
+1. Process each independent channel.
+2. Intuitively, there are only 3 possibilities in which the digit of the sixteens is the same as the input, one plus the input, or one minus the input.
+3. Compare the 3 possibilities. The subtraction of the input from the right number should be in (-0x9, 0x9]. 
 
 #### 914 Flip Game
 #### 888 Valid Word Square
