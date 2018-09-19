@@ -14,9 +14,14 @@
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/1017.py)   |Easy||72.32%||
 |1042| Toeplitz Matrix ||Easy||100.00%||
+|1401| Twitch Words ||Easy||100.00%||
 
 
 ## Diary
+
+### 20180918
+#### 1401 Twitch Words
+象征性刷一题2333
 
 ### 20180917
 #### 990 Beautiful Arrangement
