@@ -60,7 +60,7 @@ Be careful and considerate.
 
 #### 514 Paint Fence
 Q: If there are n stairs to walk on and you can climb one or two stairs once. How many ways are there for you to ascend the stairs?<br>
-A: a(n) = a(n-1) + a(n-2) -- Fibonacci sequence. **NEED further explanation.**<br>
+A: a(n) = a(n-1) + a(n-2) -- Fibonacci sequence.
 Spent quite much time on this. Poor number theory knowledges. And reluctant to see the keys stubbornly and firmly LOL.
 
 #### 423 Valid Parentheses
