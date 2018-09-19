@@ -14,10 +14,16 @@
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/1017.py)   |Easy||72.32%||
 |1042| Toeplitz Matrix ||Easy||100.00%||
+|1368| Same Number ||Easy||84.48%||
 |1401| Twitch Words ||Easy||100.00%||
 
 
 ## Diary
+
+### 20180919
+#### 1368 Same Number
+不知道list`[:n][::-1]`怎么可以写到一个`[]`里
+感觉对python的列表索引位置的理解还是很不清楚呀QAQ
 
 ### 20180918
 #### 1401 Twitch Words
