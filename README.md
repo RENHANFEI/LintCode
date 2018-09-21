@@ -7,6 +7,7 @@
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/423.py)   |Easy|`Stack`|99.40%||
+|433|Number of Islands| [Python3](https://github.com/RENHANFEI/LintCode/433.py)   |Easy|||!|
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/514.py)   |Easy|`Combination`|97.74%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/888.py)   |Easy||100.00%||
@@ -19,6 +20,11 @@
 
 
 ## Diary
+
+### 20180920
+#### 433 Number of Islands
+不知道为什么同样的test case本地跑是对的放上去测会蜜汁报错，早上再说吧
+希望可以开始系统复习一下数据结构了
 
 ### 20180919
 #### 1368 Same Number
