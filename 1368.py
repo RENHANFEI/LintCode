@@ -6,7 +6,8 @@ class Solution:
     """
     def sameNumber(self, nums, k):
         for i, num in enumerate(nums[1:]):
-            if num in nums[:i+1]:  # get previous numbers
+            # get previous numbers
+            if num in nums[:i+1]:  # PLUS ONE because start from index 1
                 if nums[:i+1][::-1].index(num) < k - 1:
                     return 'YES'
             

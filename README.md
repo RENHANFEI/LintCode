@@ -4,11 +4,12 @@
 
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
+|30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/30.py)   |Easy||99.58%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/407.py)   |Easy||99.73%||
-|423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/423.py)   |Easy|`Stack`|99.40%||
+|423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/423.py)   |Easy|`stack`|99.40%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/433.py)   |Easy|`graph`|94.60%||
-|514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/514.py)   |Easy|`Combination`|97.74%||
+|514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/514.py)   |Easy|`combination`|97.74%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/888.py)   |Easy||100.00%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/914.py)   |Easy||99.29%||
@@ -20,6 +21,12 @@
 
 
 ## Diary
+
+### 20180921
+#### Insert Interval
+早上来一道easy～
+直接先插入后按照156的方法merge了，不过感觉其实在一个循环里可以把这些都做完的
+但是复杂度都是O(N)，感觉问题也不大……？（懒懒orz
 
 ### 20180920
 #### 433 Number of Islands
@@ -34,6 +41,8 @@
 #### 1368 Same Number
 不知道list`[:n][::-1]`怎么可以写到一个`[]`里
 感觉对python的列表索引位置的理解还是很不清楚呀QAQ
+
+好了我知道我为什么对索引位置理解不清楚了……我是从index1开始enumerate的后面当然应该多加一个1啊，那天怎么都想不通太傻了吧hhhhhhh
 
 ### 20180918
 #### 1401 Twitch Words
