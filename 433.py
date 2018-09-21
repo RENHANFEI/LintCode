@@ -18,17 +18,15 @@ class Solution:
                 pre = item
         
         if isinstance(grid[0],list):
-            self.visited = [[False] * len(grid[0])] * len(grid)
             for i, row in enumerate(grid):
                 for j, item in enumerate(row):
-                    if self.visited[i][j]:
+                    if item == 0:
                         continue
                     else:
-                        # mark visited
                         if item == 1:
                             # +1 island
                             num_islands += 1
-                            # find all adjacent points and mark visited
+                            # find all adjacent points and mark sea
                             self.traverseIsland(i, j, grid)
         
         return num_islands
@@ -36,13 +34,12 @@ class Solution:
     def traverseIsland(self, i, j, grid):
         if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]):
             return
-        if not self.visited[i][j]:
-            if grid[i][j] == 1:
-                self.visited[i][j] = True
-                self.traverseIsland(i - 1, j, grid)
-                self.traverseIsland(i + 1, j, grid)
-                self.traverseIsland(i, j + 1, grid)
-                self.traverseIsland(i, j - 1, grid)
+        if grid[i][j] == 1:
+            grid[i][j] = 0
+            self.traverseIsland(i - 1, j, grid)
+            self.traverseIsland(i + 1, j, grid)
+            self.traverseIsland(i, j + 1, grid)
+            self.traverseIsland(i, j - 1, grid)
 
 
 sol = Solution()
