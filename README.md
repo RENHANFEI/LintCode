@@ -17,7 +17,7 @@
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/1017.py)   |Easy||72.32%||
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/1064.py)   |Medium||36.36%|Need Optimization|
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/1065.py)   |Medium||89.19%||
-|1042| Toeplitz Matrix ||Easy||100.00%||
+|1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/1042.py)|Easy||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/1368.py)|Easy||54.05%||
 |1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/1401.py)|Easy||100.00%||
 
