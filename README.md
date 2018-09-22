@@ -15,15 +15,28 @@
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/914.py)   |Easy||99.29%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/1017.py)   |Easy||72.32%||
+|1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/1064.py)   |Medium||36.36%|Need Optimization|
+|1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix ||Easy||100.00%||
-|1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/1368.py)|Easy||84.48%||
+|1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/1368.py)|Easy||54.05%||
 |1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/1401.py)|Easy||100.00%||
 
 
 ## Diary
 
+### 20180922
+#### 1064 My Calendar II
+嗯也是一道Calendar……类似于1065，如果不判断输入start<=end的话时间可以有81.82%<br>
+为了方便省事把intersection存到了类里面，感觉其实不用这样，是自己写傻了。过一会儿再看看。
+
+#### 1065 My Calendar I
+早上起来一道easy……要快点学学数据结构做medium喽不然easy都要做完了233<br>
+这道题真的是简单得惊为天人（然而居然还是在一开始写了个bug）<br>
+说完这两句话发现这题居然是个Medium……<br>
+不过这题测试集感觉不是很全……做了一个简单的非法输入判断(start>=end)后，时间从击败90%到了54%。在不做非法输入判断的时候答案也是对的。
+
 ### 20180921
-#### Insert Interval
+#### 30 Insert Interval
 早上来一道easy～<br>
 直接先插入后按照156的方法merge了，不过感觉其实在一个循环里可以把这些都做完的<br>
 但是复杂度都是O(N)，感觉问题也不大……？（懒懒orz
