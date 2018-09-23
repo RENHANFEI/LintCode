@@ -5,13 +5,16 @@
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
+|163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium||100.00%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
+|427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
+|902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
@@ -23,6 +26,21 @@
 
 
 ## Diary
+
+### 20180923
+#### 163 Unique Binary Search Trees
+突然dp措不及防。好不容易想清楚怎么dp后还因为把0的情况算成了0各种错。奉献了一个小时给它，哭泣。<br>
+今天就到这里啦！明天再做一下164复习一下这边的dp～
+
+#### 427 Generate Parentheses
+看到相关题目有bst用bst想尽脑汁后来发现是backtracing...<br>
+觉得backtracing和各种递归一点都不熟练呜呜呜TAT 要好好练习呀！<br>
+特别是Python的yield…万年逃避搞懂它的意思，到现在了可不能这样啦！！
+
+#### 902 Kth Smallest Element in a BST
+嗯，就是一个二叉树的中序遍历问题，我开始居然还写成了前序遍历，太太太傻了。<br>
+以及发现好像树的结点的元素应该叫val……？昨天写的是element，大概确实是val更make sense一些～<br>
+好想快点写完这个ladder的medium解锁hard啊hhhhhh >v<
 
 ### 20180922
 #### binary search tree
