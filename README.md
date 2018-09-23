@@ -4,29 +4,29 @@
 
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
-|30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/30.py)   |Easy||99.58%||
-|156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/156.py)   |Easy||100.00%||
-|407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/407.py)   |Easy||99.73%||
-|423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/423.py)   |Easy|`stack`|99.40%||
-|433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/433.py)   |Easy|`graph`|94.60%||
-|514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/514.py)   |Easy|`combination`|97.74%||
-|655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/655.py)   |Easy||95.91%||
-|888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/888.py)   |Easy||100.00%||
-|914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/914.py)   |Easy||99.29%||
-|990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
-|1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/1017.py)   |Easy||72.32%||
-|1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/1064.py)   |Medium||36.36%|Need Optimization|
-|1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/1065.py)   |Medium||89.19%||
-|1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/1042.py)|Easy||100.00%||
-|1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/1368.py)|Easy||54.05%||
-|1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/1401.py)|Easy||100.00%||
+|30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
+|156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
+|407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
+|423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
+|433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
+|514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
+|655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
+|888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
+|914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
+|990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|Need Optimization|
+|1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
+|1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%|Need Optimization|
+|1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
+|1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
+|1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
+|1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1401.py)|Easy||100.00%||
 
 
 ## Diary
 
 ### 20180922
 #### binary search tree
-终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。
+终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/blob/master/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。
 
 #### 1064 My Calendar II
 嗯也是一道Calendar……类似于1065，如果不判断输入start<=end的话时间可以有81.82%<br>
