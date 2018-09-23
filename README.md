@@ -5,7 +5,7 @@
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
-|163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium||100.00%||
+|163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
@@ -30,7 +30,7 @@
 ### 20180923
 #### 163 Unique Binary Search Trees
 突然dp措不及防。好不容易想清楚怎么dp后还因为把0的情况算成了0各种错。奉献了一个小时给它，哭泣。<br>
-今天就到这里啦！明天再做一下164复习一下这边的dp～
+今天就到这里啦！要写作业了写作业了！！明天再做一下164复习一下这边的dp～
 
 #### 427 Generate Parentheses
 看到相关题目有bst用bst想尽脑汁后来发现是backtracing...<br>
