@@ -26,7 +26,8 @@
 
 ### 20180922
 #### binary search tree
-终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/blob/master/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。
+终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/blob/master/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。<br>
+啊，想起来python里队列很简单，就把levelorder也写了，意外没报错……加油加油呐。
 
 #### 1064 My Calendar II
 嗯也是一道Calendar……类似于1065，如果不判断输入start<=end的话时间可以有81.82%<br>

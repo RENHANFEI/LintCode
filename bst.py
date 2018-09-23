@@ -109,6 +109,23 @@ def postorder_print(tree):
     print(tree.element)
 
 
+def levelorder_print(tree):
+    if tree == None:
+        return
+
+    nodes = [tree]
+
+    while nodes != []:
+        node = nodes.pop(0)
+        print(node.element)
+
+        if node.left != None:
+            nodes.append(node.left)
+
+        if node.right != None:
+            nodes.append(node.right)
+
+
 # instance
 tree = TreeNode(5)  # initialize
 insert(tree, 2) # insert
@@ -120,7 +137,7 @@ insert(tree, 9)
 insert(tree, 10)
 print("after insertions")
 print("min: %d, max: %d" % (find_min(tree).element,find_max(tree).element))
-preorder_print(tree)
+levelorder_print(tree)
 delete(tree, 8)
 print("after deletions")
 postorder_print(tree)
