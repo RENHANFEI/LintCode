@@ -5,7 +5,7 @@
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
-|163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%||
+|163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
@@ -19,7 +19,7 @@
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
-|1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%|Need Optimization|
+|1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
@@ -54,7 +54,8 @@ backtracing真的学得差……其实这题不算自己写出来的是开始看
 
 #### 1064 My Calendar II
 嗯也是一道Calendar……类似于1065，如果不判断输入start<=end的话时间可以有81.82%<br>
-为了方便省事把intersection存到了类里面，感觉其实不用这样，是自己写傻了。过一会儿再看看。
+为了方便省事把intersection存到了类里面，感觉其实不用这样，是自己写傻了。过一会儿再看看。<br>
+唔又想了想存个intersection(double calendar)觉得是空间换时间，问题不大。
 
 #### 1065 My Calendar I
 早上起来一道easy……要快点学学数据结构做medium喽不然easy都要做完了233<br>
