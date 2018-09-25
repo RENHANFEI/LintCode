@@ -11,8 +11,10 @@
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
+|427| Pow(x,n)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/428.py)|Medium||74.40%%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
+|643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
@@ -29,6 +31,14 @@
 ## Diary
 
 ### 20180924
+#### 643 Longest Absolute File Path
+也不知道算今天的还是明天的……<br>
+写得奇奇怪怪的，不过自己想出来&能跑起来很开心啦！！明天也要加油哦～
+
+#### 428 Pow(x,n)
+这道题，开始硬生生超时了，后来硬生生时间复杂度只有23.80%……<br>
+昂我又跑了一次突然74.40%……
+
 #### 164 Unique Binary Search Trees II
 backtracing真的学得差……其实这题不算自己写出来的是开始看不懂输出去看了眼答案然后不小心什么都记得了就写了……哎
 
