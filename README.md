@@ -4,6 +4,7 @@
 
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
+|7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
@@ -14,6 +15,7 @@
 |427| Pow(x,n)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/428.py)|Medium||74.40%%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
+|553| Bomb Enemy | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
@@ -29,6 +31,17 @@
 
 
 ## Diary
+
+### 20180925
+#### 553 Bomb Enemy
+这道题没认真想 看了答案 惭愧惭愧<br>
+确实完全没有get到dp的要领……只能看答案大概想出个意思<br>
+不过不管怎么说把这个ladder的required medium做完啦～～
+
+#### 7 Serialize and Deserialize Binary Tree
+看到题目是一脸懵逼的……这是什么开放性题目<br>
+听说这在leetcode上是hard我是更懵逼的……<br>
+但是levelorder马上做出来了而且一次过了哈哈哈哈哈哈哈哈哈哈哈！！！！
 
 ### 20180924
 #### 643 Longest Absolute File Path
@@ -82,18 +95,14 @@ backtracing真的学得差……其实这题不算自己写出来的是开始看
 ### 20180920
 #### 433 Number of Islands
 不知道为什么同样的test case本地跑是对的放上去测会蜜汁报错，早上再说吧
-希望可以开始系统复习一下数据结构了
-
-早上看了一下，这个在测试里跑一维数据就是会有问题……（会给出一个正确的答案，但是代码就是会编译错误，显示是json问题）
-
+希望可以开始系统复习一下数据结构了<br>
+早上看了一下，这个在测试里跑一维数据就是会有问题……（会给出一个正确的答案，但是代码就是会编译错误，显示是json问题<br>
 另外这题可以直接把遍历过的陆地记为水域，我开始还单独搞了个visited二维list存有没有遍历过，很傻了
 
 ### 20180919
 #### 1368 Same Number
 不知道list`[:n][::-1]`怎么可以写到一个`[]`里
-感觉对python的列表索引位置的理解还是很不清楚呀QAQ
-
-好了我知道我为什么对索引位置理解不清楚了……我是从index1开始enumerate的后面当然应该多加一个1啊，那天怎么都想不通太傻了吧hhhhhhh
+感觉对python的列表索引位置的理解还是很不清楚呀QAQ<br>好了我知道我为什么对索引位置理解不清楚了……我是从index1开始enumerate的后面当然应该多加一个1啊，那天怎么都想不通太傻了吧hhhhhhh
 
 ### 20180918
 #### 1401 Twitch Words
