@@ -15,7 +15,7 @@
 |427| Pow(x,n)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/428.py)|Medium||74.40%%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
-|553| Bomb Enemy | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
+|553| [Bomb Enemy](https://www.lintcode.com/problem/bomb-enemy/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
