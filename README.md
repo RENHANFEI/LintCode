@@ -14,7 +14,9 @@
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
 |427| Pow(x,n)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/428.py)|Medium||74.40%%||
-|433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`graph`|94.60%||
+|433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`dfs`|94.60%||
+|434|[Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/434.py)   |Medium|`uf`||!|
+|480|Binary Tree Paths| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/480.py)   |Easy||100%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
 |553| [Bomb Enemy](https://www.lintcode.com/problem/bomb-enemy/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
@@ -27,11 +29,23 @@
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
+|1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
 |1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1401.py)|Easy||100.00%||
 
 
 ## Diary
+
+### 20180927
+#### 1256 Nth Digit
+
+#### 480 Binary Tree Paths
+说是要做到easy缓解一下结果easy也交了两次才过，太蠢了TAT
+
+#### 434 Number of Islands II 
+目前解答是对的，但是超时 = =<br>
+看了下答案要用union/find做 真是打扰了……待我学一下再回过头来看这道题吧<br>
+呜呜呜感觉这两天刷题都受挫 我要刷到easy缓解一下心情
 
 ### 20180926
 #### 65 Median of Two Sorted Arrays
