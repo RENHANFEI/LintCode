@@ -30,7 +30,7 @@
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
 |1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
-|1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||67.74%||
+|1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||100.00%||
 |1294| Power of Three |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1294.py)|Easy||100.00%||
 |1314| Power of Two |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1314.py)|Easy||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
@@ -53,7 +53,8 @@
 
 #### 1266 Find the Difference
 感觉自己是死做的 求优化的方法QAQ<br>
-可以用hash table做。
+可以用hash table做<br>
+😯😯😯可以直接ascii码加加减减，但其实不查并不记得`ord()`和`chr()` 233
 
 #### 434 Number of Islands II 
 这题怕是想气死我。先dfs，嗯dfs不行要用set？那就set。诶还是超？诶要uf？诶诶诶诶诶TTATT<br>
