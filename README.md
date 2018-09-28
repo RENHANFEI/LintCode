@@ -15,7 +15,7 @@
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
 |427| Pow(x,n)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/428.py)|Medium||74.40%%||
 |433|[Number of Islands](https://www.lintcode.com/problem/number-of-islands/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/433.py)   |Easy|`dfs`|94.60%||
-|434|[Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/434.py)   |Medium|`uf`||!|
+|434|[Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii/description?_from=ladder&&fromId=18)| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/434.py)   |Medium|`uf`|56.78%|*|
 |480|Binary Tree Paths| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/480.py)   |Easy||100%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
 |553| [Bomb Enemy](https://www.lintcode.com/problem/bomb-enemy/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
@@ -30,11 +30,35 @@
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
 |1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
+|1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||67.74%||
+|1294| Power of Three |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1294.py)|Easy||100.00%||
+|1314| Power of Two |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1314.py)|Easy||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
 |1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1401.py)|Easy||100.00%||
 
 
 ## Diary
+
+### 20180928
+#### 1294 Power of Three
+写是很快写完了……但是问题描述里还有个不用递归/循环怎么做 hmmm……<br>
+一个是 直接用换底公式算log3(N) 看看是不是整数 但这个方法会有误差 我现在是把换底公式的结果取了12位有效数字 可以通过测试 但是也不是很放心……<br>
+另外一个就是求int范围内(0x7fffffff)最大的3的幂(想了好久这个power中文怎么说我真是英文无进步中文疯狂退步)，然后看看n是不是这个最大的3的幂的因子 这个方法应该是没有漏洞的<br>
+以及这三个方法的时间都是100%，很神奇了233
+
+
+#### 1314 Power of Two
+终于有道很快写完一次对的题了……（追求呢)<br>
+发现因为是2的幂，所以可以用二进制做(懒得写了)
+
+#### 1266 Find the Difference
+感觉自己是死做的 求优化的方法QAQ<br>
+可以用hash table做。
+
+#### 434 Number of Islands II 
+这题怕是想气死我。先dfs，嗯dfs不行要用set？那就set。诶还是超？诶要uf？诶诶诶诶诶TTATT<br>
+不过算是从这题学到了不少吧，比如把二维列表拉成一维不要拉错…………（蠢死），比如怎么对disjoint set做union（把根连到一起）和find（一个递归找根）。<br>
+今天也要加油呐～
 
 ### 20180927
 #### 1256 Nth Digit
