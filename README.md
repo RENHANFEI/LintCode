@@ -7,6 +7,7 @@
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
+|163| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)   |Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
@@ -19,6 +20,7 @@
 |480|Binary Tree Paths| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/480.py)   |Easy||100%||
 |514| [Paint Fence](https://www.lintcode.com/problem/paint-fence/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/514.py)   |Easy|`combination`|97.74%||
 |553| [Bomb Enemy](https://www.lintcode.com/problem/bomb-enemy/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/553.py)   |Medium|`dp`|96.55%|*|
+|640| One Edit Distance | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/640.py)   |Medium||100.00%||
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
@@ -38,6 +40,16 @@
 
 
 ## Diary
+
+### 20180929
+#### 640 One Edit Distance
+这道题开始强行dp……然后就超时了hhh 后来就一个个字符遍历呗，开始有些小地方没考虑到… 后来突然通过100%的时候我是震惊的……感觉自己写得很琐碎&不优雅了Orz。<br>
+唔看答案换了种优雅一点易读性强一点的，变成了97.74%<br>
+唔再发现其实dp也可以做……？就是，二维列表的对角线和周围算一下就好了
+
+#### 119 Edit Distance
+一道经典的dp，我开始硬生生把循环里的`(i+1,j)`和`(i,j+1)`写成了`(i,j-1)`和`(i-1,j)`，debug了好久😢。（因为是按照`(i+1,j+1)`循环的所以退一个不应该退那么多……太傻了。<br>
+看到一个感觉不错的[dp的归纳](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)的帖子，mark一下～
 
 ### 20180928
 #### 1294 Power of Three
