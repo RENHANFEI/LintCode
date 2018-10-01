@@ -28,11 +28,14 @@
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
+|1038| Jewels And Stones | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1038.py)   |Easy||95.59%||
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
+|1361| Text Justification |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1361.py)|Hard||100.00%||
 |1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
 |1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||100.00%||
+|1282| Reverse Vowels of a String |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1282.py)|Easy||100.00%||
 |1294| Power of Three |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1294.py)|Easy||100.00%||
 |1314| Power of Two |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1314.py)|Easy||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
@@ -40,6 +43,19 @@
 
 
 ## Diary
+
+### 20180930
+#### 1038 Jewels And Stones
+聊以安慰
+
+#### 1282 Reverse Vowels of a String
+之前这道题一直不懂什么叫reverse……超出两个怎么reverse……就没做这题<br>
+今天研究了下原来是最前和最后换的意思，就是，如果有三个元音字母，就第一个和第三个换，第二个不懂；如果有四个，就一四换二三换。<br>
+唔，开始没考虑大写，罪过罪过<br>
+总之把google的ladder的easy的required和frequent写完啦！
+
+#### 1361 Text Justification
+哈哈哈哈哈，和两位大佬语音一起做题，然后超级顺得写了个hard一次pass的100%(虽然也是这题比较简单)！！
 
 ### 20180929
 #### 640 One Edit Distance
