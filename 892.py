@@ -14,6 +14,7 @@ class Solution:
         bigger_dict = dict({})
         char_indegree = dict({})
         chs = set({})
+        chs_ingraph = set({})
         
         for w in words:
             for ww in set(w):
@@ -29,7 +30,8 @@ class Solution:
             
             for i, ww in enumerate(w):
                 if pre_w[i] != ww:
-                    
+                    chs_ingraph.add(pre_w[i])
+                    chs_ingraph.add(ww)
                     if pre_w[i] in bigger_dict:
                         bigger_dict[pre_w[i]].append(ww)  # ww is bigger than pre_w[i]
                     else:
@@ -54,23 +56,24 @@ class Solution:
                 chs.remove(ch)
                 zero_indegree.append(ch)
         
-        res = ""
         
+        res = ""
         cnt = 0
         while len(zero_indegree) != 0:
+            zero_indegree.sort()
             out = zero_indegree.pop(0)
             res += out
+            cnt += 1
             
-            reduce_to_zero_flag = False
             for bigger_than_out in bigger_dict[out]:
                 char_indegree[bigger_than_out] -= 1
                 if char_indegree[bigger_than_out] == 0:
                     chs.remove(bigger_than_out)
                     zero_indegree.append(bigger_than_out)
-                    reduce_to_zero_flag = True
-                    
-            if not reduce_to_zero_flag:
-                break
+        
+        if cnt != len(chs_ingraph):
+            return ""
+        
         
         reminders = sorted(list(chs))
         i = 0

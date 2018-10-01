@@ -24,6 +24,7 @@
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
+|892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/892.py)   |Hard||91.67%||
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
@@ -43,6 +44,12 @@
 
 
 ## Diary
+
+### 201810001
+#### 892 Alien Dictionary
+昨天写得天昏地暗的一题…… 以为排不出的只要不输出就好了，后来发现排不出的还是要输出，输出就算了，发现还要按照abcd字母序插入。题意不清，真的服气。<br>
+早上起来改一改突然过了哈哈哈哈一个美好的早上！早安！！
+
 
 ### 20180930
 #### 1038 Jewels And Stones
