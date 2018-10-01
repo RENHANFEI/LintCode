@@ -89,3 +89,29 @@ class Solution:
         res += ''.join(reminders[i:])
                     
         return res
+
+''' 16-line solution'''
+# class Solution:
+#     """
+#     @param words: a list of words
+#     @return: a string which is correct order
+#     """
+#     def alienOrder(self, words):
+#         less = []
+#         for pair in zip(words, words[1:]):
+#             for a, b in zip(*pair):
+#                 if a != b:
+#                     less += a + b,
+#                     break
+                
+#         chars = set(''.join(words))
+#         order = []
+#         while less:
+#             free = chars - set(list(zip(*less))[1])
+#             if not free:
+#                 return ''
+#             order += free
+#             less = list(filter(free.isdisjoint, less))
+#             chars -= free
+#         return ''.join(order + list(chars))
+
