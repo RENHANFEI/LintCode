@@ -8,9 +8,10 @@
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
+|138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
+|156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
-|156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
@@ -23,6 +24,8 @@
 |640| One Edit Distance | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/640.py)   |Medium||100.00%||
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
+|775| Palindrome Pairs | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/775.py)   |Hard||72.41%||
+|838| Subarray Sum Equals K | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/838.py)   |Easy||63.46%|*|
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
 |892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/892.py)   |Hard||91.67%||
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
@@ -45,7 +48,20 @@
 
 ## Diary
 
+### 20181002
+
+#### 775 Palindrome Pairs
+这道题开始一直超时 = =  其实就是用字典，加上对遍历过程的优化（只考虑比自己小的 + 拆成对两头和中间部分的判断）
+
+
 ### 201810001
+
+#### 138 Subarray Sum
+根据838的思路写了个返回所有可能结果的（注释里）
+
+#### 838 Subarray Sum Equals K
+哎= =
+
 #### 892 Alien Dictionary
 昨天写得天昏地暗的一题…… 以为排不出的只要不输出就好了，后来发现排不出的还是要输出，输出就算了，发现还要按照abcd字母序插入。题意不清，真的服气。<br>
 早上起来改一改突然过了哈哈哈哈一个美好的早上！早安！！<br>
