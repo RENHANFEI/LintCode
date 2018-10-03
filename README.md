@@ -5,14 +5,17 @@
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
+|13| Implement strStr() | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/13.py)   |Easy||80.60%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
 |31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/31.py)   |Medium||93.40%|*|
+|55| Compare Strings | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/55.py)   |Easy||99.00%||
 |57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/57.py)   |Medium||56.60%||
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
+|158| Valid Anagram | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/158.py)   |Easy||98.00%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
 |189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
@@ -54,6 +57,15 @@
 
 
 ## Diary
+
+### 20181003
+
+#### 13 Implement strStr()
+
+#### 55 Compare Strings
+
+#### 158 Valid Anagram
+每次用set前都要考虑一下重复出现的情况，不能傻呀
 
 ### 20181002
 
