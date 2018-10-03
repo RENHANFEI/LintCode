@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- |---|
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
-|31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/31.py)   |Medium||93.40%||
+|31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/31.py)   |Medium||93.40%|*|
 |57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/57.py)   |Medium||56.60%||
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
@@ -61,7 +61,7 @@
 先从左往右一个坑一个坑算，到最后如果最后的height小于开始掉下去的height，就再反过来算一下。
 
 #### 31 Partition Array
-相当于一步冒泡排序。
+双指针……？
 
 #### 196 Missing Number
 开始还sort了一下……<br>
