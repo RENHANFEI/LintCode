@@ -6,12 +6,18 @@
 | --- | --- | --- | --- | --- | --- |---|
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
+|31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/31.py)   |Medium||93.40%||
+|57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/57.py)   |Medium||56.60%||
+|59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
+|189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
+|196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
+|363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/363.py)   |Medium||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
@@ -30,6 +36,7 @@
 |892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/892.py)   |Hard||91.67%||
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
+|918| 3Sum Smaller | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/918.py)   |Medium||84.21%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
 |1038| Jewels And Stones | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1038.py)   |Easy||95.59%||
@@ -49,6 +56,29 @@
 ## Diary
 
 ### 20181002
+
+#### 363 Trapping Rain Water
+先从左往右一个坑一个坑算，到最后如果最后的height小于开始掉下去的height，就再反过来算一下。
+
+#### 31 Partition Array
+相当于一步冒泡排序。
+
+#### 196 Missing Number
+开始还sort了一下……<br>
+后来发现只用加一下减一下就好了23333
+
+#### 189 First Missing Positive
+开始没考虑空/没考虑某一个数重复出现<br>
+明明简单的题还不能一次做对呜呜呜呜呜
+
+#### 59 3Sum Closest
+找到完全一样的直接返回（不然就超时嘞）<br>
+在看918的时候学习了一下三指针然后用了一下 嘻嘻
+
+#### 918 3Sum Smaller
+第一次做的时候，判断前两个数有没有大于等于target，True的话直接break了，没考虑到第三个也是负数（以及target是负数）的情况
+
+#### 57 3Sum
 
 #### 775 Palindrome Pairs
 这道题开始一直超时 = =  其实就是用字典，加上对遍历过程的优化（只考虑比自己小的 + 拆成对两头和中间部分的判断）
