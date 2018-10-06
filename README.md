@@ -4,6 +4,7 @@
 
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
+|2| Trailing Zeros | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/2.py)   |Easy||89.60%||
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/7.py)   |Medium||89.80%||
 |13| Implement strStr() | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/13.py)   |Easy||80.60%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
@@ -15,10 +16,14 @@
 |74| First Bad Version | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/74.py)   |Medium||83.20%||
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
+|140| Fast Power | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/140.py)   |Medium||50.00%|*|
+|142| O(1) Check Power of 2 | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/142.py)   |Easy||100.00%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/156.py)   |Easy||100.00%||
 |158| Valid Anagram | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/158.py)   |Easy||98.00%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
+|179| Update Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/179.py)   |Medium||100.00%|*|
+|181| Flip Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/181.py)   |Easy||98.08%|*|
 |189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
 |363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/363.py)   |Medium||100.00%||
@@ -48,22 +53,46 @@
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
 |1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
-|1201| Next Greater Element I |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1201.py)|Medium||100.00%||
-|1361| Text Justification |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1361.py)|Hard||100.00%||
+|1174| Next Greater Element III |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1174.py)|Medium||80.00%||
+|1201| Next Greater Element II |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1201.py)|Medium||100.00%||
+|1206| Next Greater Element I |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1206.py)|Easy||100.00%||
 |1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
 |1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||100.00%||
 |1282| Reverse Vowels of a String |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1282.py)|Easy||100.00%||
 |1294| Power of Three |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1294.py)|Easy||100.00%||
 |1314| Power of Two |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1314.py)|Easy||100.00%||
+|1361| Text Justification |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1361.py)|Hard||100.00%||
 |1368| Same Number |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1368.py)|Easy||54.05%||
 |1401| Twitch Words |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1401.py)|Easy||100.00%||
 
 
 ## Diary
 
+#### 20181005
+
+#### 140 Fast Power
+智商捉急 幂取余 积的模=模的积的模
+
+#### 179 Update Bits
+太太太难了 抄了个答案（同样的逻辑在cpp跑得起来为什么python跑不起来啊）<br>抄了个强行除法的答案
+100
+
+#### 1174 Next Greater Element III
+32-bit 整数范围 - 2^31 ~ 2^31 - 1
+
+#### 2 Trailing Zeros
+
+#### 142 O(1) Check Power of 2
+
+#### 181 Flip Bits
+哇突然二进制好难
+
+#### 1206 Next Greater Element I
+列表转反向字典 `nums2_dict = dict([[num2,i] for i, num2 in enumerate(nums2)])`
+
 ### 20181003
 
-#### 1201 Next Greater Element I
+#### 1201 Next Greater Element II
 用stack
 
 #### 689 Two Sum IV - Input is a BST
