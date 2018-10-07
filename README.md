@@ -34,6 +34,7 @@
 |189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
 |363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/363.py)   |Medium||100.00%||
+|364| [Trapping Rain Water II](https://www.lintcode.com/problem/trapping-rain-water-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/364.py)   |Hard||68.90%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
@@ -77,6 +78,9 @@
 ## Diary
 
 ### 20181006
+
+#### 364 Trapping Rain Water II
+这题两个思路吧，一个是从下往上一层层算，一个是对每一个点看四周最小边。我根据第一个思路+dfs做的超时了。[网上抄了个答案](http://bookshadow.com/weblog/2016/09/25/leetcode-trapping-rain-water-ii/)有空再自己写一遍吧。
 
 #### 187 Gas Station
 
