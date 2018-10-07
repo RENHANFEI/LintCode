@@ -9,11 +9,17 @@
 |13| Implement strStr() | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/13.py)   |Easy||80.60%||
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/30.py)   |Easy||99.58%||
 |31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/31.py)   |Medium||93.40%|*|
+|46| Majority Element| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/46.py)   |Medium||94.60%|*|
+|47| Majority Element II| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/47.py)   |Medium||94.79%||
+|48| Majority Element III| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/48.py)   |Medium||99.36%||
 |55| Compare Strings | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/55.py)   |Easy||99.00%||
 |57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/57.py)   |Medium||56.60%||
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
 |74| First Bad Version | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/74.py)   |Medium||83.20%||
+|82| Single Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Easy||95.43%|*|
+|83| Single Number II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||97.90%|*|
+|84| Single Number III | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||93.22%|*|
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
 |140| Fast Power | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/140.py)   |Medium||50.00%|*|
@@ -24,6 +30,7 @@
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
 |179| Update Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/179.py)   |Medium||100.00%|*|
 |181| Flip Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/181.py)   |Easy||98.08%|*|
+|187| Gas Station | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/187.py)   |Medium||100.00%||
 |189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
 |363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/363.py)   |Medium||100.00%||
@@ -41,6 +48,7 @@
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/655.py)   |Easy||95.91%||
 |689| Two Sum IV - Input is a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/689.py)   |Medium||96.81%||
 |775| Palindrome Pairs | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/775.py)   |Hard||72.41%||
+|824| Single Number IV | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/824.py)   |Medium||100.00%||
 |838| Subarray Sum Equals K | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/838.py)   |Easy||63.46%|*|
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
 |892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/892.py)   |Hard||91.67%||
@@ -68,7 +76,28 @@
 
 ## Diary
 
-#### 20181005
+### 20181006
+
+#### 187 Gas Station
+
+#### 48 Majority Number III
+
+#### 47 Majority Element II
+
+#### 46 Majority Element
+神了…… 
+
+#### 824 Single Number IV
+
+#### 84 Single Number III
+
+#### 83 Single Number II
+也可以用位运算思想以保证常数空间
+
+#### 82 Single Number
+所有的异或起来（太可怕了）
+
+### 20181005
 
 #### 140 Fast Power
 智商捉急 幂取余 积的模=模的积的模
