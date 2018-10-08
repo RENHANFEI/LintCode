@@ -30,6 +30,8 @@
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
 |179| Update Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/179.py)   |Medium||100.00%|*|
 |181| Flip Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/181.py)   |Easy||98.08%|*|
+|182| Delete Digits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/182.py)   |Medium||97.30%|*|
+|184| Largest Number| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/184.py)   |Medium||99.01.30%|*|
 |187| Gas Station | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/187.py)   |Medium||100.00%||
 |189| First Missing Positive | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/189.py)   |Medium||100.00%||
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
@@ -57,6 +59,7 @@
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |918| 3Sum Smaller | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/918.py)   |Medium||84.21%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
+|1109| Dota2 Senate| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1109.py)   |Medium||71.43%||
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
 |1038| Jewels And Stones | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1038.py)   |Easy||95.59%||
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
@@ -76,6 +79,14 @@
 
 
 ## Diary
+
+### 20181007
+
+#### 1109 Dota2 Senate
+
+#### 182 Delete Digits
+
+#### 184 Largest Number
 
 ### 20181006
 
