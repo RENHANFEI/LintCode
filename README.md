@@ -12,6 +12,7 @@
 |46| Majority Element| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/46.py)   |Medium||94.60%|*|
 |47| Majority Element II| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/47.py)   |Medium||94.79%||
 |48| Majority Element III| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/48.py)   |Medium||99.36%||
+|52| Next Permutation| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/52.py)   |Medium||97.57%||
 |55| Compare Strings | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/55.py)   |Easy||99.00%||
 |57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/57.py)   |Medium||56.60%||
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
@@ -20,7 +21,9 @@
 |82| Single Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Easy||95.43%|*|
 |83| Single Number II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||97.90%|*|
 |84| Single Number III | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||93.22%|*|
+|105| Copy List With Random Pointer | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/105.py)   |Medium||100.00%||
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
+|122| [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/122.py)|Hard|`stack`|77.39%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/138.py)   |Easy||60.40%||
 |140| Fast Power | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/140.py)   |Medium||50.00%|*|
 |142| O(1) Check Power of 2 | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/142.py)   |Easy||100.00%||
@@ -28,6 +31,7 @@
 |158| Valid Anagram | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/158.py)   |Easy||98.00%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/164.py)   |Medium|`backtracing`|60.71%|*|
+|174|  Remove Nth Node From End of List | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/174.py)   |Medium||71.39%|*|
 |179| Update Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/179.py)   |Medium||100.00%|*|
 |181| Flip Bits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/181.py)   |Easy||98.08%|*|
 |182| Delete Digits | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/182.py)   |Medium||97.30%|*|
@@ -37,6 +41,7 @@
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/196.py)   |Medium||100.00%||
 |363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/363.py)   |Medium||100.00%||
 |364| [Trapping Rain Water II](https://www.lintcode.com/problem/trapping-rain-water-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/364.py)   |Hard||68.90%||
+|386| Longest Substring with At Most K Distinct Characters | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/386.py)   |Easy||100.00%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/407.py)   |Easy||99.73%||
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/423.py)   |Easy|`stack`|99.40%||
 |427| [Generate Parentheses](https://www.lintcode.com/problem/generate-parentheses/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/427.py)   |Easy|`backtracing`|97.29%||
@@ -53,6 +58,7 @@
 |775| Palindrome Pairs | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/775.py)   |Hard||72.41%||
 |824| Single Number IV | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/824.py)   |Medium||100.00%||
 |838| Subarray Sum Equals K | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/838.py)   |Easy||63.46%|*|
+|886| Convex Polygon | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/886.py)   |Medium||||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/888.py)   |Easy||100.00%||
 |892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/892.py)   |Hard||91.67%||
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
@@ -68,6 +74,7 @@
 |1174| Next Greater Element III |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1174.py)|Medium||80.00%||
 |1201| Next Greater Element II |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1201.py)|Medium||100.00%||
 |1206| Next Greater Element I |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1206.py)|Easy||100.00%||
+|1219| Heaters |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1219.py)|Easy||100.00%||
 |1256| [Nth Digit](https://www.lintcode.com/problem/nth-digit/description?_from=ladder&&fromId=18) |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1256.py)|Easy||86.21%|*|
 |1266| Find the Difference |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1266.py)|Easy||100.00%||
 |1282| Reverse Vowels of a String |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1282.py)|Easy||100.00%||
@@ -79,6 +86,25 @@
 
 
 ## Diary
+
+### 20181011
+
+#### 886 Convex Polygon
+
+#### 174 Remove Nth Node From End of List
+
+#### 386 Longest Substring with At Most K Distinct Characters
+
+#### 105 Copy List with Random Pointer
+
+#### 1219 Heaters
+
+### 20181009
+
+#### 122 Largest Rectangle in Histogram
+单调栈
+
+#### 52 Next Permutation
 
 ### 20181007
 
