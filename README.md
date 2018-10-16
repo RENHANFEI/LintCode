@@ -18,6 +18,8 @@
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/59.py)   |Medium||99.48%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/65.py)   |Hard||87.20%|*|
 |74| First Bad Version | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/74.py)   |Medium||83.20%||
+|78| Longest Common Prefix | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/78.py)   |Medium||98.93%||
+|79| Longest Common Substring | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/79.py)   |Medium|`dp`|100.00%||
 |82| Single Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Easy||95.43%|*|
 |83| Single Number II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||97.90%|*|
 |84| Single Number III | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/82.py)   |Medium||93.22%|*|
@@ -64,14 +66,18 @@
 |902| Kth Smallest Element in a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/902.py)   |Medium|`bst`|100.00%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/914.py)   |Easy||99.29%||
 |918| 3Sum Smaller | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/918.py)   |Medium||84.21%||
+|973| 1-bit and 2-bit Characters | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/973.py)   |Easy||94.59%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/990.py)   |Medium|`dfs`|31.03%|*|
 |1109| Dota2 Senate| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1109.py)   |Medium||71.43%||
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1017.py)   |Easy||72.32%||
 |1038| Jewels And Stones | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1038.py)   |Easy||95.59%||
+|1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1065.py)   |Medium||89.19%||
-|1042| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1042.py)|Easy||100.00%||
+|1078| Degree of An Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/1078.py)   |Easy||84.21%%||
+|1157| Shortest Unsorted Continuous Array |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1157.py)|Easy||100.00%||
 |1174| Next Greater Element III |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1174.py)|Medium||80.00%||
+|1187| K-diff Pairs in an Array |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1187.py)|Easy||100.00%||
 |1201| Next Greater Element II |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1201.py)|Medium||100.00%||
 |1206| Next Greater Element I |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1206.py)|Easy||100.00%||
 |1219| Heaters |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/1219.py)|Easy||100.00%||
@@ -86,6 +92,20 @@
 
 
 ## Diary
+
+### 20181015
+
+#### 1157 Shortest Unsorted Continuous Array
+
+#### 78 Longest Common Prefix
+
+#### 1187 K-diff Pairs in an Array
+
+#### 79 Longest Common Substring
+
+#### 973 1-bit and 2-bit Characters
+
+#### 1078 Degree of An Array
 
 ### 20181011
 
