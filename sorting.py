@@ -125,14 +125,30 @@ class Sorting(object):
     def heap_sort(self, nums=None):
         if not nums:
             nums = [num for num in self.nums]
-        # Lazy me LOL
-        # Will handwrite heap in another module!
-        import heapq
-        heapq.heapify(nums)
-        result = []
-        while nums:
-            result.append(heapq.heappop(nums))
-        return result
+        # to save space, use max heap
+        n = len(nums)
+        for i in range(n // 2, -1, -1): self.__perc_down(nums, i, n)
+        for i in range(n - 1, -1, -1):
+            nums[0], nums[i] = nums[i], nums[0]
+            self.__perc_down(nums, 0, i)
+        return nums
+
+    def __perc_down(self, nums, i, n):
+        temp = nums[i]
+        child = self.__left_child(i)
+        while child < n:
+            if child != n - 1 and nums[child + 1] > nums[child]:
+                child += 1
+            if temp < nums[child]:
+                nums[i] = nums[child]
+            else:
+                break
+            i = child
+            child = self.__left_child(i)
+        nums[i] = temp
+
+    def __left_child(self, i):
+        return 2 * i + 1
 
     def counting_sort(self, nums=None):
         if not nums:
