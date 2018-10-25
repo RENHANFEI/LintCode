@@ -12,6 +12,7 @@
 |30| Insert Interval | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/30.py)   |Easy||99.58%||
 |31| Partition Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/31.py)   |Medium||93.40%|*|
 |35| Reverse Linked List | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/35.py)   |Easy||84.40%||
+|36| Reverse Linked List II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/36.py)   |Medium||71.17%||
 |46| Majority Element| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/46.py)   |Medium||94.60%|*|
 |47| Majority Element II| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/47.py)   |Medium||94.79%||
 |48| Majority Element III| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/48.py)   |Medium||99.36%||
@@ -22,6 +23,7 @@
 |56| Two Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/56.py)   |Easy||58.40%||
 |57| 3Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/57.py)   |Medium||56.60%||
 |59| 3Sum Closest | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/59.py)   |Medium||99.48%||
+|60| Search Insert Position | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/60.py)   |Easy||100.00%||
 |64| Merge Sorted Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/64.py)   |Easy||45.60%||
 |65| [Median of Two Sorted Arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/65.py)   |Hard||87.20%|*|
 |69| Binary Tree Level Order Traversal | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/69.py)   |Easy||91.40%||
@@ -32,7 +34,8 @@
 |82| Single Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/82.py)   |Easy||95.43%|*|
 |83| Single Number II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/82.py)   |Medium||97.90%|*|
 |84| Single Number III | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/82.py)   |Medium||93.22%|*|
-|100| Remove Duplicates from Sorted Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/100.py)   |Easy||84.60%||
+|96| Partition List | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/96.py)   |Easy||98.20%||
+|100| Remove Duplicates from Sorted Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/100.py)   |Easy||96.60%||
 |102| Linked List Cycle | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/102.py)   |Medium||93.20%||
 |103| Linked List Cycle II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/103.py)   |Hard||98.24%||
 |105| Copy List With Random Pointer | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/105.py)   |Medium||100.00%||
@@ -40,9 +43,11 @@
 |122| [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/122.py)|Hard|`stack`|77.39%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/138.py)   |Easy||60.40%||
 |140| Fast Power | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/140.py)   |Medium||50.00%|*|
+|141| Sqrt(x) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/141.py)   |Easy||91.20%||
 |142| O(1) Check Power of 2 | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/142.py)   |Easy||100.00%||
 |156| Merge Intervals | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/156.py)   |Easy||100.00%||
 |158| Valid Anagram | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/158.py)   |Easy||98.00%||
+|159| Find Minimum in Rotated Sorted Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/159.py)   |Medium||86.80%||
 |163| [Unique Binary Search Tree](https://www.lintcode.com/problem/unique-binary-search-trees/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/163.py)   |Medium|`dp`|100.00%|*|
 |164| [Unique Binary Search Tree II](https://www.lintcode.com/problem/unique-binary-search-trees-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/164.py)   |Medium|`backtracing`|60.71%|*|
 |165| Merge Two Sorted Lists | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/165.py)   |Easy||93.40%||
@@ -59,7 +64,10 @@
 |196| Missing Number | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/196.py)   |Medium||100.00%||
 |363| Trapping Rain Water | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/363.py)   |Medium||100.00%||
 |364| [Trapping Rain Water II](https://www.lintcode.com/problem/trapping-rain-water-ii/description) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/364.py)   |Hard||68.90%||
+|380| Intersection of Two Linked Lists | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/380.py)   |Medium||83.40%||
 |386| Longest Substring with At Most K Distinct Characters | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/386.py)   |Easy||100.00%||
+|394| Coins in a Line  | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/394.py)   |Medium||100.00%||
+|395| Coins in a Line II  | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/395.py)   |Medium||99.15%||
 |407| Flus One | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/407.py)   |Easy||99.73%||
 |412| Candy | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/412.py)   |Hard||100.00%|G|
 |423| Valid Parentheses | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/423.py)   |Easy|`stack`|99.40%||
@@ -75,11 +83,13 @@
 |640| One Edit Distance | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/640.py)   |Medium||100.00%||
 |643| [Longest Absolute File Path](https://www.lintcode.com/problem/longest-absolute-file-path/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/643.py)   |Medium||98.31%||
 |655| [Add Strings](https://www.lintcode.com/problem/add-strings/description?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/655.py)   |Easy||95.91%||
+|678| Shortest Palindrome | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/678.py)   |Medium||100.00%||
 |689| Two Sum IV - Input is a BST | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/689.py)   |Medium||96.81%||
 |775| Palindrome Pairs | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/775.py)   |Hard||72.41%||
 |824| Single Number IV | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/824.py)   |Medium||100.00%||
 |838| Subarray Sum Equals K | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/838.py)   |Easy||63.46%|*|
 |858| Candy Crush | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/858.py)   |Medium||100.00%||
+|877| Split Array with Equal Sum  | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/877.py)   |Medium||90.00%||
 |886| Convex Polygon | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/886.py)   |Medium||||
 |888| Valid Word Square | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/888.py)   |Easy||100.00%||
 |892| Alien Dictionary | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/892.py)   |Hard||91.67%||
@@ -87,6 +97,7 @@
 |904| Plus One Linked List| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/902.py)   |Medium||98.25%||
 |914| Flip Game | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/914.py)   |Easy||99.29%||
 |918| 3Sum Smaller | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/918.py)   |Medium||84.21%||
+|919| Meeting Rooms II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/919.py)   |Medium||99.33%||
 |920| Meeting Rooms | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/920.py)   |Easy||79.34%||
 |927| Reverse Words in a String | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/927.py)   |Medium||93.58%||
 |973| 1-bit and 2-bit Characters | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/973.py)   |Easy||94.59%||
@@ -99,7 +110,9 @@
 |1064| My Calendar II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1064.py)   |Medium||36.36%||
 |1065| My Calendar I | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1065.py)   |Medium||89.19%||
 |1078| Degree of An Array | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1078.py)   |Easy||84.21%||
+|1088| Redundant Connection | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1088.py)   |Medium||100.00%|G|
 |1089| Valid Parenthesis String | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1089.py)   |Medium||100.00%||
+|1119| Maximum Product of Three Numbers | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1119.py)   |Easy||100.00%||
 |1157| Shortest Unsorted Continuous Array |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1157.py)|Easy||100.00%||
 |1173| Reverse Words in a String III  |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1173.py)|Easy||96.30%||
 |1174| Next Greater Element III |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1174.py)|Medium||80.00%||
@@ -125,10 +138,51 @@
 | --- | --- | --- | --- | --- | --- |---|
 |844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/844.py)   |Easy||99.58%|G|
 
+## Data Structures
+|#|Name|About|
+|---|---|---|
+|1|[Binary Search Tree](https://github.com/RENHANFEI/LintCode/blob/master/ds/bst.py)|find min, find max, find, insert, delete, preorder, inorder, postorder, levelorder|
+|2|[Sorting](https://github.com/RENHANFEI/LintCode/blob/master/ds/sorting.py)|{bubble, selection, insertion, shell, merge, quick, heap, counting, bucket, radix} sort|
 
 ## Diary
 
+#### [Sortings](https://github.com/RENHANFEI/LintCode/blob/master/ds/sorting.py)
+把十个经典排序写了一下
+
+#### 1088 Redundant Connection
+uf重连的时候要记得是把根连过去呀……傻死了
+
+#### 678 Shortest Palindrome
+
+#### 919 Meeting Rooms II
+
+### 20181023
+
+#### 159 Find Minimum in Rotated Sorted Array
+
+#### 141 Sqrt(x)
+
+#### 60 Search Insert Position
+
+#### 96 Partition List
+最后一个节点要指向none不然链表就有环啦！
+
 ### 20181022
+
+#### 1119 Maximum Product of Three Numbers
+
+#### 395 Coins in a Line II
+QAQ
+
+#### 394 Coins in a Line
+智商被吐槽了QAQ
+
+#### 877 Split Array with Equal Sum
+太变态了……最后给一大堆零的测试集特别写了五行代码
+
+#### 36 Reverse Linked List II
+
+#### 380 Intersection of Two Linked Lists
 
 #### 633 Find the Duplicate Number
 
@@ -479,7 +533,7 @@ backtracing真的学得差……其实这题不算自己写出来的是开始看
 
 ### 20180922
 #### binary search tree
-终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/blob/master/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。<br>
+终于开始学数据结构了，[用python写了下二叉搜索树](https://github.com/RENHANFEI/LintCode/blob/master/ds/bst.py)以及前中后序遍历，本来想把层序遍历也写一下，但是今天有点头大，明天吧。<br>
 啊，想起来python里队列很简单，就把levelorder也写了，意外没报错……加油加油呐。
 
 #### 1064 My Calendar II
