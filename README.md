@@ -5,6 +5,7 @@
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
 |2| Trailing Zeros | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/2.py)   |Easy||89.60%||
+|6| Merge Two Sorted Arrays | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/6.py)   |Easy||86.80%||
 |7| Serialize and Deserialize Binary Tree | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/7.py)   |Medium||89.80%||
 |13| Implement strStr() | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/13.py)   |Easy||80.60%||
 |14| First Position of Target | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/14.py)   |Easy||44.00%||
@@ -41,6 +42,7 @@
 |105| Copy List With Random Pointer | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/105.py)   |Medium||100.00%||
 |119| [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/119.py)|Medium|[`dp`](https://www.cnblogs.com/wuyuegb2312/p/3281264.html)|97.98%||
 |122| [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description)|[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/122.py)|Hard|`stack`|77.39%||
+|137| Clone Graph | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/137.py)   |Medium||53.20%||
 |138| Subarray Sum | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/138.py)   |Easy||60.40%||
 |140| Fast Power | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/140.py)   |Medium||50.00%|*|
 |141| Sqrt(x) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/141.py)   |Easy||91.20%||
@@ -88,6 +90,8 @@
 |775| Palindrome Pairs | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/775.py)   |Hard||72.41%||
 |824| Single Number IV | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/824.py)   |Medium||100.00%||
 |838| Subarray Sum Equals K | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/838.py)   |Easy||63.46%|*|
+|849| Basic Calculator III| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/849.py)   |Hard||100.00%||
+|853| Number of Corner Rectangles | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/853.py)   |Medium||100.00%|G|
 |858| Candy Crush | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/858.py)   |Medium||100.00%||
 |877| Split Array with Equal Sum  | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/877.py)   |Medium||90.00%||
 |886| Convex Polygon | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/886.py)   |Medium||||
@@ -101,8 +105,12 @@
 |920| Meeting Rooms | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/920.py)   |Easy||79.34%||
 |927| Reverse Words in a String | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/927.py)   |Medium||93.58%||
 |973| 1-bit and 2-bit Characters | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/973.py)   |Easy||94.59%||
+|978| Basic Calculator | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/978.py)   |Hard||100.00%||
+|980| Basic Calculator II | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/980.py)   |Medium||78.18%||
 |982| Arithmetic Slices | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/982.py)   |Medium||100.00%||
 |990| [Beautiful Arrangement](https://www.lintcode.com/problem/beautiful-arrangement/?_from=ladder&&fromId=18) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/990.py)   |Medium|`dfs`|31.03%|*|
+|1103| Split Array into Consecutive Subsequences | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1003.py)|Medium||100.00%||
+|1106| Subdomain Visit Count | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1006.py)   |Easy||100.00%||
 |1109| Dota2 Senate| [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1109.py)   |Medium||71.43%||
 |1017| Similar RGB Color | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1017.py)   |Easy||72.32%||
 |1038| Jewels And Stones | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1038.py)   |Easy||95.59%||
@@ -133,10 +141,18 @@
 |1443| Longest AB Substring |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LintCode/1443.py)|Easy||86.10%||
 
 ## LeetCode
-
 | #| Title|Answer|Difficulty|Tag|Runtime|Notes|
 | --- | --- | --- | --- | --- | --- |---|
-|844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/844.py)   |Easy||99.58%|G|
+#### LeetCode 205 Isomorphic Strings 82.89% ez
+|399| Evaluate Division |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/399.py)|Easy||98.91%|G|
+|475| Heaters |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/475.py)|Easy||89.45%|G|
+|482| License Key Formatting |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/482.py)|Easy||50.42%|G|
+|681| Next Closed Time |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/681.py)|Easy||90.97%|G|
+|686| Repeated String Match |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/686.py)|Easy||57.95%|G|
+|734| Sentence Similarity |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/734.py)|Easy||100.00%|G|
+|766| Toeplitz Matrix |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/766.py)|Easy||92.09%|G|
+|844| Backspace String Compare |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/844.py)|Easy||99.58%|G|
+|849| Maximize Distance to Closest Person |[Python3](https://github.com/RENHANFEI/LintCode/blob/master/LeetCode/849.py)|Easy||84.89%|G|
 
 ## Data Structures
 |#|Name|About|
@@ -145,6 +161,51 @@
 |2|[Sorting](https://github.com/RENHANFEI/LintCode/blob/master/ds/sorting.py)|{bubble, selection, insertion, shell, merge, quick, heap, counting, bucket, radix} sort|
 
 ## Diary
+
+#### 1087 Redundant Connection II hard 超时了不想写了再说吧先欠着orz
+
+### 20181027
+用google doc写了一些练手……然而事实是我就是没有养成写bug-free的代码的习惯……总指望test的时候debug…… 要加油呐
+
+#### LeetCode 475 Heaters
+
+#### leetcode 766 Toeplitz Matrix
+
+#### LeetCode 734 Sentence Similarity
+
+#### LeetCode 849 Maximize Distance to Closest Person
+
+#### LeetCode 205 Isomorphic Strings
+
+#### LeetCode 686 Repeated String Match
+
+#### LeetCode 681 Next Closed Time
+
+#### LeetCode 482 License Key Formatting
+
+#### 1103 Split Array into Consecutive Subsequences
+
+### 20181026
+
+#### LeetCode 399 Evaluate Division
+
+#### 853 Number of Corner Rectangles
+
+#### 137 Clone Graph
+
+### 20181025
+
+#### 1006 Subdomain Visit Count
+
+#### 849 Basic Calculator III
+
+#### 978 Basic Calculator
+
+#### 980 Basic Calculator II
+
+#### 6 Merge Two Sorted Arrays
+
+### 20181024
 
 #### [Sortings](https://github.com/RENHANFEI/LintCode/blob/master/ds/sorting.py)
 把十个经典排序写了一下

@@ -13,10 +13,13 @@ class Sorting(object):
         if not nums:
             nums = [num for num in self.nums]
         n = len(nums)
+        x = 0
         for i in range(n - 1):
             for j in range(n - i - 1):
                 if nums[j] > nums[j + 1]:
+                    x += 1
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
+        print(x)
         return nums
 
     def selection_sort(self, nums=None):
@@ -217,7 +220,7 @@ class Sorting(object):
             lambda x: -x, negative))[::-1]) + self.radix_sort_nonnegative(nonnegative)
     
 
-sort = Sorting()
+sort = Sorting([8, 22, 7, 9, 31, 19, 5, 13])
 print("Original Array: {}".format(sort.nums))
 print("Bubble Sort:    {}".format(sort.bubble_sort()))
 print("Selection Sort: {}".format(sort.selection_sort()))
