@@ -169,8 +169,85 @@
 
 ## Diary
 
+#### LeetCode 493 Reverse Pairs hard brute force超时就算了写了个树还超时……气死我了
 #### 1087 Redundant Connection II hard 超时了不想写了再说吧先欠着orz
 #### LeetCode 212 Word Search II hard 打扰了又超时了欠着欠着orz trie没学过啊
+
+### 20181114
+嗯我应该是这么不了了之这个文档了233
+
+### 20181106
+
+#### LeetCode 62 Unique Paths 95.35% m
+
+### 20181105 
+
+#### LeetCode 543 Friend Circles 64.93% m
+
+#### LeetCode 158 Read N Characters Given Read4 II - Call multiple times hard 100%
+
+#### leetcode 14 Longest Common Prefix
+Python内置函数是好用啊……一下就100%了
+
+#### LeetCode 20 Valid Parentheses 98.90% ez
+
+#### LeetCode 157 Read N Characters Given Read4 ez 99.80%
+
+#### LeetCode 76 Minimum Window Substring h 38.99%
+
+#### LeetCode 127 Word Ladder m 87.42%
+
+#### LeetCode 362 Design Hit Counter m 100%
+
+### 20181104
+
+#### LeetCode 329 Longest Increasing Path in a Matrix 59.81%
+
+#### LeetCode 710 Random Pick with Blacklist 91.89% h
+
+#### LeetCode 37 Sudoku Solver h 47.05%
+
+#### LeetCode 36 Valid Sudoku m 97.49%
+
+#### LeetCode 14 Longest Common Prefix 59.23% ez
+
+### 20181101
+
+#### LeetCode 759 Employee Free Time hard 81.68%
+
+#### 622 Forg Jump hard 96% 
+开始用了list……果断超时……
+还是set好用啊……
+
+#### 451 Swap Nodes in Pairs 100 m 
+
+#### LeetCode 365 Water and Jug Problem 100% m
+
+### 20181031
+
+Happy Halloween!
+
+#### LeetCode 215 Kth Largest Element in an Array 68.28%
+
+#### LeetCode 3 Longest Substring Without Repeating Characters 88.38% m
+
+#### LeetCode 324 Wiggle Sort II 99.18% m
+
+#### LeetCode 692 Top K Frequent Words m 65.83%
+
+#### 389 Valid Sudoku easy 100.00
+
+#### 448 Inorder Successor in BST m 48.62 *
+
+### 20181029
+
+#### 1002 Bus Routes 63.64% hard
+
+#### LeetCode 299 Bulls and Cows m 98.84%
+
+#### LeetCode 1 Two Sum 80.72% ez
+
+#### LeetCode 247 Strobogrammatic Number II 70.56%
 
 ### 20181028
 

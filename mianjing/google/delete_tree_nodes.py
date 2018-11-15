@@ -20,7 +20,7 @@ def f(root, deletions):
             for child in children:
                 if child.val not in deletions:
                     ans.append(child.val)
-        q += children
+        q.extend(children)
 
     return ans
 
